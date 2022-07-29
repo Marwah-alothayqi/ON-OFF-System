@@ -59,4 +59,4 @@ void ButtonDebounce(){
   
   
   
-  to see the output click on the Serial monitor if the led (on) you will see 1 otherwise it will be 0 which mean the led is (off)
+  to see the output click on the Serial monitor if the led (on) you will see 1 otherwise it will be 0 which mean the led is (off).
