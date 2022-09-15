@@ -10,7 +10,8 @@ which made of these components.
 * 4.arduino uno 
 * 5.breadboard
 ----------------------------------------------------------------------------------------------------------------------
-To make the project work as expected use this code which solve the bounce problem follow the comments to understand it.
+### To make the project work as expected use this code which solve the bounce problem follow the comments to understand it.
+```
 int ledpin = 4;// a pin for the LED
 int  pushbuttonpin = 2; //a pin for the pushbutton
 int ledstate = LOW;// saving LED state (LOW or HIGH)means on or off
@@ -59,6 +60,6 @@ void ButtonDebounce(){
   lastbuttonstate = readbutton;
   }
   
-  
+  ```
   
   to see the output click on the Serial monitor if the led (on) you will see 1 otherwise it will be 0 which mean the led is (off).
